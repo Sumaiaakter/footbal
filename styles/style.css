@@ -96,3 +96,37 @@ footer{
     color: white;
     padding-left: 120px;
 }
+/* media queries */
+@media only screen and (max-width:680px) {
+    .container{
+        width: 100%;
+    }
+    .banner {
+        flex-direction: column;
+        background-color: tomato;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .sign-up{
+        flex-direction: column;
+        background-color: tomato;
+        grid-template-columns: repeat(1, 1fr);
+
+        
+    }
+    .player{
+        flex-direction: column;
+        background-color: tomato;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    footer{
+        flex-direction: column;
+        background-color: tomato;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0%;
+
+
+    }
+
+    
+}
