@@ -1,0 +1,95 @@
+
+body{
+    margin: 0%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 400px;
+    margin-top: 5%;
+}
+.banner{
+    display: flex;
+    background-color: blue;
+}
+.left{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.copa{
+    color: white;
+    font-size: 40px;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+    background: rgb(85, 85, 84);
+    padding: 2px 5px;
+    font-size: 20px;
+}
+/* player details */
+.player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    
+}
+.blog{
+    width: 250px;
+    height: 400px;
+    background-color: rgba(248, 248, 246, 0.932);
+    box-shadow: 10px 10px 30px rgb(173, 171, 171);
+    border-radius: 20px;
+    margin: 5%;
+    padding: 10px 10px;
+    
+}
+.blog img{
+    width: 200px;
+}
+.blog p{
+    width: 200px;
+}
+.icon{
+    display: flex;
+    width: 20px;
+    color: white;
+}
+.reg{
+    background-color: thistle;
+}
+.sign-up{
+    display: flex;grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    margin: 5%;
+   
+}
+.sign-up img{
+    width: 350px;
+    height: 360px;
+    
+}
+.sign-up h1{
+    color: rgb(238, 8, 8);
+    margin-top: 5%;
+    padding: 80px;
+    background-image: linear-gradient(rgb(2, 87, 2), lightblue);
+}
+.sign-up .name{
+    color: white;
+}
+footer{
+    height: 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    background-color: rgb(23, 23, 24);
+    margin-top: 15%;
+    padding: 300px;
+}
+.copy{
+    color: white;
+    padding-left: 120px;
+}
