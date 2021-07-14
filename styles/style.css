@@ -43,7 +43,7 @@ img{
     box-shadow: 10px 10px 30px rgb(173, 171, 171);
     border-radius: 20px;
     margin: 5%;
-    padding: 10px 10px;
+    padding: 30px 30px;
     
 }
 .blog img{
@@ -59,6 +59,9 @@ img{
 }
 .reg{
     background-color: thistle;
+}
+.reg h2{
+    padding: 40px;
 }
 .sign-up{
     display: flex;grid-template-columns: repeat(2, 1fr);
@@ -86,7 +89,7 @@ footer{
     grid-template-columns: 1fr;
     align-items: center;
     background-color: rgb(23, 23, 24);
-    margin-top: 15%;
+    margin-top: 5%;
     padding: 300px;
 }
 .copy{
